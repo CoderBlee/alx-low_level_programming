@@ -1,6 +1,6 @@
-#includ "main.h"
+#include "main.h"
 /**
-* print_alphabet_x10 - prints alphabet 10 times in lowercase
+* print_alphabet_x10 - prints alphabets 10 times in lowercase
 * Return: void
 */
 void print_alphabet_x10(void)
@@ -15,7 +15,7 @@ void print_alphabet_x10(void)
 		m = 'a';
 		while (m <= 'z')
 		{
-			_putcha(m);
+			_putchar(m);
 			m++;
 		}
 		_putchar('\n');
